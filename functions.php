@@ -1,12 +1,17 @@
 <?php
 
+if (WP_DEBUG && ! defined('SAVEQUERIES'))
+{
+	define('SAVEQUERIES', TRUE);
+}
+
 new WP_Theme_GeertDD;
 
 class WP_Theme_GeertDD {
 
 	public function __construct()
 	{
-		add_action('after_theme_setup', array($this, 'setup'));
+		add_action('after_setup_theme', array($this, 'setup'));
 		add_action('init', array($this, 'clean_up_head'));
 		add_action('wp_enqueue_scripts', array($this, 'load_styles_and_scripts'));
 	}
