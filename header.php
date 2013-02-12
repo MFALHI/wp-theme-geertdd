@@ -11,9 +11,9 @@
 <body <?php body_class() ?>>
 
 	<header>
-		<?php if (is_front_page()) { ?>
+		<?php if ( is_front_page() ) { ?>
 			<h1>GeertDeDeckere.be</h1>
 		<?php } else { ?>
-			<p><a href="<?php bloginfo('url') ?>">GeertDeDeckere.be</a></p>
+			<p><a href="<?php bloginfo( 'url' ) ?>">GeertDeDeckere.be</a></p>
 		<?php } ?>
 	</header>
