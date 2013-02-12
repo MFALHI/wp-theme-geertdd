@@ -21,3 +21,8 @@ pre, code {
 	font-family: $monospace;
 	font-size: 0.8em;
 }
+
+// Styles for print
+@media print {
+	@import 'print';
+}
