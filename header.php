@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<title><?php wp_title() ?></title>
 
+	<script src="//use.typekit.net/sqy8gxu.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
 	<?php wp_head() ?>
 
 </head>

@@ -2,7 +2,22 @@
 // http://bourbon.io
 @import 'bourbon';
 
+// Font families
+$serif: freight-text-pro, Georgia, serif;
+$sans-serif: freight-sans-pro, sans-serif;
+$monospace: Menlo, Consolas, monospace, serif;
+
 // Natural box layout model to all elements
 // http://paulirish.com/2012/box-sizing-border-box-ftw/
 * { @include box-sizing(border-box); }
 
+html {
+	font: 24px/30px $serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $sans-serif;
+}
+pre, code {
+	font-family: $monospace;
+	font-size: 0.8em;
+}
