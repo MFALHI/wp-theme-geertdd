@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<title><?php wp_title() ?></title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<script src="//use.typekit.net/sqy8gxu.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
