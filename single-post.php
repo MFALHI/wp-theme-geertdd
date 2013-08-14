@@ -6,11 +6,11 @@
 		<h1><?php the_title() ?></h1>
 		<p class="date"><?php the_date() ?></p>
 	</header>
-	<section>
+	<section class="body">
 		<?php the_content() ?>
 	</section>
-	<section>
-		<p>Comments</p>
+	<section class="comments">
+		<!-- <p>Comments</p> -->
 	</section>
 </article>
 
